@@ -35,7 +35,7 @@ setup(
 
     },
     packages=find_namespace_packages(include=["src"], exclude=['src.REBAR.chen-case-study', 'src.REBAR.kinsler-case-study', 'src.REBAR.sensitivity-analyses']),
-    package_dir={"": "src"},
+    package_dir={"src": "src"},
     package_data={"": ["*.yaml", "*.json"]},
     entry_points="""
     [console_scripts]

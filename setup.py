@@ -3,7 +3,7 @@ from setuptools import setup, find_namespace_packages
 import pathlib
 
 APP_NAME = "rebar-py"
-VERSION = "1.0"
+VERSION = "1.0.1"
 LICENSE = "MIT"
 AUTHOR = "Ryan Seamus McGee"
 DESCRIPTION = "REBAR (Removing the Effects of Bias through Analysis of Residuals): Improving the accuracy of bulk fitness assays by correcting barcode processing biases."

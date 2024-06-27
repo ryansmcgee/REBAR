@@ -2,7 +2,7 @@
 from setuptools import setup, find_namespace_packages
 import pathlib
 
-APP_NAME = "REBAR"
+APP_NAME = "rebar-py"
 VERSION = "1.0"
 LICENSE = "MIT"
 AUTHOR = "Ryan Seamus McGee"

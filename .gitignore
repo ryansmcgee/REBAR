@@ -1,4 +1,7 @@
-venv/
+venv
+.idea
+.DS_Store
 src/ecoevocrm.egg-info
+__pycache__
 src/REBAR/kinsler-case-study/identify-neutral-groups.ipynb
 src/REBAR/kinsler-case-study/data/tikhonov-matlab-data

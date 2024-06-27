@@ -2,12 +2,12 @@
 from setuptools import setup, find_namespace_packages
 import pathlib
 
-APP_NAME = "ecoevocrm"
-VERSION = "1.0.1"
+APP_NAME = "REBAR"
+VERSION = "1.0"
 LICENSE = "MIT"
 AUTHOR = "Ryan Seamus McGee"
-DESCRIPTION = "Computational frameworks for extended consumer resource models of eco-evoutionary community dynamics."
-URL = "https://github.com/tikhonov-group/ecoevocrm.git"
+DESCRIPTION = "REBAR (Removing the Effects of Bias through Analysis of Residuals): Improving the accuracy of bulk fitness assays by correcting barcode processing biases."
+URL = "https://github.com/ryansmcgee/REBAR.git"
 
 # Directory containing this file
 HERE = pathlib.Path(__file__).parent
@@ -27,15 +27,14 @@ setup(
     install_requires=[
         "numpy",
         "scipy",
-        "scikit-learn",
         "pandas",
-        "matplotlib",
-        "argparse"
+        "json",
+        "warnings"
     ],
     extra_require={
 
     },
-    packages=find_namespace_packages("src"),
+    packages=find_namespace_packages(include=["src"], exclude=['src.REBAR.chen-case-study', 'src.REBAR.kinsler-case-study', 'src.REBAR.sensitivity-analyses']),
     package_dir={"": "src"},
     package_data={"": ["*.yaml", "*.json"]},
     entry_points="""

@@ -1,0 +1,4 @@
+venv/
+src/ecoevocrm.egg-info
+src/REBAR/kinsler-case-study/identify-neutral-groups.ipynb
+src/REBAR/kinsler-case-study/data/tikhonov-matlab-data
